@@ -12,7 +12,7 @@ CONF_FILE="/etc/sddm.conf.d/zz-steamos-autologin.conf"
 SENTINEL_FILE="steamos-session-select"
 
 # For sanity this shipped file must be present, to ensure we're still on a normal-looking steamos setup.
-CHECK_FILE="/home/.steam/sddm.conf.d/steamos.conf"
+CHECK_FILE="/home/deck/.steam/sddm.conf.d/steamos.conf"
 
 session="${1:-gamescope}"
 
