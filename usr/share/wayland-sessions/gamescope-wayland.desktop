@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=ChimeraOS (gamescope)
+Name=GamePadUI (gamescope)
 Comment=Steam Big Picture session
 Exec=gamescope-session
 Type=Application
