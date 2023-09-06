@@ -6,5 +6,5 @@ This project's end is to play SteamOS in any distro.
 
 Copy this repository file structure into the appropriate places.
 
-# Configuration
+## Configuration
 
