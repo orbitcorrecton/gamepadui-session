@@ -5,14 +5,9 @@ their work on teh SteamDeck) and is part of the ChimeraOS project. Regardless
 is generic enough and aims to be usable on any distribution. If you have any
 issues with it, just report them on teh issue tracker.
 
-## Installation
-
-A PKGBUILD for Archlinux is available [in the AUR](https://aur.archlinux.org/packages/gamescope-session-git).
-
 ## Basic manual setup
 
 Copy this repository file structure into the appropriate places.
 
 # Configuration
 
-```
