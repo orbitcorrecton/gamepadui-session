@@ -33,12 +33,6 @@ STEAMCMD="steam -steamos -pipewire-dmabuf -gamepadui"
 GAMESCOPECMD="gamescope -e -f"
 ```
 
-# Session switch
-
-A session switcher script is provided to be used by the session to exit to the
-Display Manager of choice. The script will look for a special file
-`/usr/lib/os-session-select` to handoff the control of the session. If the file
-does not exist it will just exit steam.
 
 # License & Contributing
 
