@@ -4,7 +4,7 @@ This project's end is to run SteamOS in any distro.
 
 ## Basic manual setup
 
-Copy this repository file structure into the appropriate places.
+Copy this repository file structure into the appropriate places.Take care for sddm config seeing "steamos-session select" file.
 
 ## Configuration
 
