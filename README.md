@@ -11,30 +11,8 @@ A PKGBUILD for Archlinux is available [in the AUR](https://aur.archlinux.org/pac
 
 ## Basic manual setup
 
-Copy this repository file structure into the appropriate places and you'll be
-able to start the session on any Display Manager of your choice.
+Copy this repository file structure into the appropriate places.
 
 # Configuration
 
-The session sources environment from `~/.config/environment.d/*.conf` files.
-The easiest way to configure the session is to create `~/.config/environment.d/gamescope-session.conf`
-and set variables there:
-
 ```
-# Size of the screen. If not set gamescope will detect native resolution from drm.
-SCREEN_HEIGHT=2160
-SCREEN_WIDTH=3840
-
-# Override entire Steam client command line
-STEAMCMD="steam -steamos -pipewire-dmabuf -gamepadui"
-
-# Override the entire Gamescope command line
-# This will not use screen and render sizes above
-GAMESCOPECMD="gamescope -e -f"
-```
-
-
-# License & Contributing
-
-The project is licensed under MIT license. If you want to contribute,
-just do so and thank you.
