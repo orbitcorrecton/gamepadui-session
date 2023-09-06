@@ -1,4 +1,4 @@
-# Steam game pad UI session on Valve's [`gamescope`](https://github.com/Plagman/gamescope)
+# Steam gamepad UI session on Valve's [`gamescope`](https://github.com/Plagman/gamescope)
 
 This project's end is to run SteamOS in any distro.
 
