@@ -1,36 +1,12 @@
-#!/bin/bash
-set -e
+#!/usr/bin/bash
 
-BRANCH_PATH="/var/lib/steamos-branch"
-
-if [[ "$#" = 1 ]]; then
-  case "$1" in
-    "-c")
-      branch=$(cat "$BRANCH_PATH" 2> /dev/null || echo "rel")
-      case "$branch" in
-        "rel" | "rc" | "beta" | "bc" | "main")
-          echo "$branch"
-          exit 0
-          ;;
-        *)
-          echo "unknown branch name in $BRANCH_PATH: $branch" 1>&2
-          exit 1
-          ;;
-      esac
-      ;;
-    "-l")
-      echo rel
-      echo rc
-      echo beta
-      echo bc
-      echo main
-      exit 0
-      ;;
-    "rel" | "rc" | "beta" | "bc" | "main")
-      echo "$1" > "$BRANCH_PATH"
-      exit 0
-      ;;
-  esac
+# Hook for custom OS branch script
+STEAMOS_BRANCH_SCRIPT="/usr/lib/os-branch-select"
+if [ -f $STEAMOS_BRANCH_SCRIPT ] ; then
+	# Call branch script from the OS
+	${STEAMOS_BRANCH_SCRIPT} $@
+else
+	# Simply call shutdown on the client
+	echo "No branch script was found, branches won't be visible in the SteamUI"
 fi
 
-echo "Usage: steamos-select-branch <-c|-l|rel|rc|beta|bc|main>" 1>&2
