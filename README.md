@@ -1,4 +1,4 @@
-# Valvuntu   Steam gamepad UI Entry
+# Valvuntu Chained Steam OS session
 Bringing the best experience of gaming  
   
 ## Requirements
