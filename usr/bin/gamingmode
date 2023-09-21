@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo plasma-steamos-oneshot.desktop > "/home/yoshiki/.config/steamos-session-select"
+echo plasma-steamos-oneshot.desktop > "/home/deck/.config/steamos-session-select"
 
 pkexec gamingmode
 
