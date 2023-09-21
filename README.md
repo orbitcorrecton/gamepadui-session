@@ -1,5 +1,5 @@
 # Valvuntu   Steam gamepad UI Entry
-Bringing he best experience of gaming  
+Bringing the best experience of gaming  
   
 ## Requirements
 Ubuntu  
