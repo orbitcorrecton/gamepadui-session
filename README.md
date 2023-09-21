@@ -1,4 +1,4 @@
-# Valvuntu Chained Steam OS session
+# Valvuntu SteamOS session chained
 Bringing the best experience of gaming  
   
 ## Requirements
