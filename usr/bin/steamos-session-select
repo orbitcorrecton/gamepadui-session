@@ -9,7 +9,7 @@ die() { echo >&2 "!! $*"; exit 1; }
 # File this script will modify, in addition to (potentially) the per-user sentinel file
 CONF_FILE="/etc/sddm.conf.d/zz-steamos-autologin.conf"
 
-SENTINEL_FILE="steamos-session-select"
+SENTINEL_FILE="steamos-session-selecte"
 
 # For sanity this shipped file must be present, to ensure we're still on a normal-looking steamos setup.
 CHECK_FILE="/home/deck/.steam/steamos.conf"
