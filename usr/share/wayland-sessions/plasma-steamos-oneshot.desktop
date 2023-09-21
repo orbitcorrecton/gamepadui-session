@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=/usr/bin/startplasma-steamos-oneshot
+TryExec=/usr/bin/startplasma-steamos-oneshot
+DesktopNames=Steam (One-Time Launch)
+Name=Steam (One-Time Launch)
+Comment=Steam by Gamescope - One Time Launch Redirect for SteamOS Sessions
