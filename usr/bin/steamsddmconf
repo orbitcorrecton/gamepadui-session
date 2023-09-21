@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CONF_FILE="/etc/sddm.conf.d/zz-steamos-autologin.conf"
+
+sudo tee -a $CONF_FILE > /dev/null <<EOT
+[Autologin]
+Session=plasma-steamos-oneshot.desktop
+EOT

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo plasma-steamos-oneshot.desktop > "/home/yoshiki/.config/steamos-session-select"
+
+pkexec gamingmode
+
+qdbus org.kde.Shutdown /Shutdown logout
