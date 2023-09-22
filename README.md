@@ -2,7 +2,7 @@
 Bringing the best gaming experience  
 
 Default session : KDE(x11)  Chained session : Gamescope    
-**Because of KWin issue, Wayland session is not available now.
+**Because of KWin issue, wayland session is not available now.
   
 ## Requirements
 Ubuntu  
