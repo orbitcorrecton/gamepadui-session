@@ -1,10 +1,13 @@
-# Valvuntu SteamOS session chained
-Bringing the best experience of gaming  
+# Valvuntu with SteamOS session (gamescope)
+Bringing the best gaming experience  
+
+Default session : KDE(x11)  Chained session : Gamescope    
+**Because of KWin issue, Wayland session is not available now.
   
 ## Requirements
 Ubuntu  
-Steam Client  
-Gamescope (Valve's app)
+Steam for Linux Client  
+Gamescope
 
 ## Basic manual setup
 
