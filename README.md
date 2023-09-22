@@ -14,4 +14,5 @@ Gamescope
 Copy this repository file structure into the appropriate places.   
 
 ## Configuration
+???
 
