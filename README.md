@@ -1,8 +1,7 @@
 # Valvuntu with SteamOS session
 Bringing the best gaming experience  
 
-Default session : KDE(x11)  Chained session : Gamescope    
-**Because of KWin issue, wayland session is not available now.
+Default session : KDE(wayland)  Chained session : Gamescope    
   
 ## Requirements
 Ubuntu  
