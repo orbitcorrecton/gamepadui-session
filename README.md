@@ -1,4 +1,4 @@
-# Valvuntu with SteamOS session
+# Valvuntu with SteamOS session  Valve's [`gamescope`](https://github.com/Plagman/gamescope)
 Bringing the best gaming experience  
 
 Default session : KDE(wayland)  Chained session : Gamescope    
