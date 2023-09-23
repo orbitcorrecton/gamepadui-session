@@ -1,4 +1,4 @@
-# Valvuntu with chained SteamOS session
+# Valvuntu with SteamOS session
 Bringing the best gaming experience  
 
 Default session : KDE(x11)  Chained session : Gamescope    
