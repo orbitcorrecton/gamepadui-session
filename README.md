@@ -1,12 +1,12 @@
-# Valvuntu with SteamOS session  [`gamescope`](https://github.com/Plagman/gamescope)
+# Valvuntu with SteamOS session
 Bringing the best gaming experience  
 
 Default session : KDE(wayland)  Chained session : Gamescope    
   
 ## Requirements
-Ubuntu  
-Steam for Linux Client  
-Gamescope
+Ubuntu Canonical  
+Steam for Linux Client Valve  
+Gamescope Valve
 
 ## Basic manual setup
 
