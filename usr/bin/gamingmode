@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/usr/bin/kdeplasma-session-select steam
+/usr/bin/steamos-session-select steam
 
 qdbus org.kde.Shutdown /Shutdown logout
 
