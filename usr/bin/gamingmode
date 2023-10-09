@@ -2,6 +2,4 @@
 
 /usr/bin/steamos-session-select steam
 
-qdbus org.kde.Shutdown /Shutdown logout
-
-dbus-send --session --type=method_call --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.Logout uint32:1
+killall -- systemd --user
