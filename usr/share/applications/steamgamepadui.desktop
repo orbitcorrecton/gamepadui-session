@@ -1,0 +1,22 @@
+[Desktop Action GamePadUI]
+Exec=gamingmode
+Name=Switch to Steam GamePadUI
+
+[Desktop Entry]
+Actions=GamePadUI;
+Categories=Network;FileTransfer;Game;
+Comment=Switch to gamescope session
+Exec=/usr/bin/gamingmode
+GenericName=
+Icon=steamdeck-gaming-return
+MimeType=
+Name=Gaming Mode
+Path=
+PrefersNonDefaultGPU=true
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-RunOnDiscreteGpu=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
