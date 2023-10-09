@@ -4,9 +4,9 @@ Bringing the best gaming experience
 Default session : KDE(wayland)  Chained session : Gamescope    
   
 ## Requirements
-Ubuntu Canonical  
-Steam for Linux Client Valve  
-Gamescope Valve
+Ubuntu    
+Steam for Linux Client  
+Gamescope
 
 ## Basic manual setup
 
